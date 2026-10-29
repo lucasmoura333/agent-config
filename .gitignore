@@ -1,0 +1,39 @@
+# Credenciais e segredos
+.credentials.json
+.auth.json
+auth.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+.env.*
+!.env.example
+secrets/
+secrets*.json
+*.secret
+
+# Sessoes, historico e transcricoes de agentes
+sessions/
+history.jsonl
+file-history/
+shell-snapshots/
+paste-cache/
+session-env/
+projects/
+backups/
+state/
+logs*.sqlite*
+thread_history*.sqlite*
+memories*.sqlite*
+goals*.sqlite*
+queue*.sqlite*
+state*.sqlite*
+
+# Caches e dependencias
+cache/
+node_modules/
+package-lock.json
+bun.lock
+*.log
+.DS_Store
